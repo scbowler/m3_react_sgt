@@ -1,0 +1,35 @@
+{
+    "success": true,
+    "studentGrades": [
+        {
+            "name": "Fred H.",
+            "grade": 89,
+            "course": "Math 101",
+            "id": 1
+        },
+        {
+            "name": "Sally F.",
+            "grade": 98,
+            "course": "Creative Writing 203",
+            "id": 2
+        },
+        {
+            "name": "Robert J.",
+            "grade": 92,
+            "course": "Physics 401",
+            "id": 3
+        },
+        {
+            "name": "Lisa S.",
+            "grade": 99,
+            "course": "Earth Science 104",
+            "id": 4
+        },
+        {
+            "name": "Henry K.",
+            "grade": 78,
+            "course": "Physical Education",
+            "id": 5
+        }
+    ]
+}
