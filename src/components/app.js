@@ -29,6 +29,7 @@ class App extends Component {
 
     addStudent(student){
         student.id = tempId++;
+        student.grade = parseFloat(student.grade);
 
         this.setState({
             studentGrades: [...this.state.studentGrades, student]

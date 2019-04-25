@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import StudentRow from './student_row';
+import NavLink from './nav_link';
 
 class Table extends Component {
 
@@ -39,6 +40,8 @@ class Table extends Component {
         return (
             <div>
                 <h1 className="center">Student Grade Table</h1>
+                
+                <NavLink color="blue darken-2" text="Add Student" to="/add-student"/>
 
                 {this.renderTable()}
             </div>

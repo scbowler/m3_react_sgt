@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Input from './input';
+import NavLink from './nav_link';
 
 class AddStudent extends Component {
     state = {
@@ -32,6 +33,8 @@ class AddStudent extends Component {
         return (
             <div>
                 <h1 className="center">Add Student</h1>
+
+                <NavLink color="blue darken-2" text="View Grade Table" to="/"/>
 
                 <form onSubmit={this.handleAddStudent}>
                     <div className="row">
