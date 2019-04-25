@@ -20,8 +20,6 @@ class AddStudent extends Component {
     handleAddStudent = event => {
         event.preventDefault();
 
-        console.log('New Student:', this.state); 
-
         this.props.add({...this.state});
 
         this.props.history.push('/');
