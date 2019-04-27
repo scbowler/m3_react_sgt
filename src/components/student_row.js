@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 const StudentRow = props => {
     return (
-        <tr>
+        <tr className="student-row" onClick={props.seeDetails}>
             <td>{props.id}</td>
             <td>{props.name}</td>
             <td>{props.course}</td>

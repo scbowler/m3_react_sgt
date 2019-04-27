@@ -1,0 +1,68 @@
+{
+    "success": true,
+    "1": {
+        "student": {
+            "fullName": "Fred Henry",
+            "phone": "123 123-1234",
+            "email": "fred@mail.com"
+        },
+        "classData": {
+            "course": "Math 101",
+            "description": "An introduction to basic math",
+            "instructor": "Mr. George"
+        },
+        "studentGrade": 89
+    },
+    "2": {
+        "student": {
+            "fullName": "Sally Franks",
+            "phone": "897 567-5309",
+            "email": "sally@mail.com"
+        },
+        "classData": {
+            "course": "Creative Writing 203",
+            "description": "Intermediate creative writing class",
+            "instructor": "Mr. Kyle"
+        },
+        "studentGrade": 98
+    },
+    "3": {
+        "student": {
+            "fullName": "Robert Jones",
+            "phone": "895 578-1234",
+            "email": "Bob.j@mail.com"
+        },
+        "classData": {
+            "course": "Physics 401",
+            "description": "A deep look into the world of physics",
+            "instructor": "Mrs. Keller"
+        },
+        "studentGrade": 92
+    },
+    "4": {
+        "student": {
+            "fullName": "Lisa Smith",
+            "phone": "897 145-7894",
+            "email": "notlisasimpson@mail.com"
+        },
+        "classData": {
+            "course": "Earth Science 104",
+            "description": "Take a deeper look onto the earth",
+            "instructor": "Mrs. Smyth"
+        },
+        "studentGrade": 99
+    },
+    "5": {
+        "student": {
+            "fullName": "Henry Kensworth",
+            "phone": "789 279-4972",
+            "email": "Henry@mail.com"
+        },
+        "classData": {
+            "course": "Physical Education",
+            "description": "See the great outdoors while running",
+            "instructor": "Mr. Lee"
+        },
+        "studentGrade": 78
+    }
+}
